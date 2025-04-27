@@ -1,0 +1,22 @@
+name: flutter_member_payment_sdk
+description: Flutter SDK for member management and payment processing
+version: 0.1.0
+homepage: https://github.com/yourcompany/flutter_member_payment_sdk
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0
+  shared_preferences: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  # 如果有资源文件，可以在这里添加
